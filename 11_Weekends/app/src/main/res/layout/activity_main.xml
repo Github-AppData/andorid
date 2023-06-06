@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/AntiqueWhite"
+    android:orientation="vertical"
+    >
+    <!--<RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sub 페이지로 이동 2"
+            android:id="@+id/radio_subPage1"
+            android:textSize="15sp"
+            >
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="extra 페이지로 이동 2"
+            android:id="@+id/radio_extraPage1"
+            android:textSize="15sp"
+            >
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="intra 페이지로 이동 2"
+            android:id="@+id/radio_intraPage1"
+            android:textSize="15sp"
+            >
+        </RadioButton>
+
+    </RadioGroup>-->
+    <Button
+        android:id="@+id/Btn_move"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUB 페이지로 이동"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/Btn_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rating 페이지로 이동"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/Btn_two_way"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Two Way Page Move !"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        >
+
+    </Button>
+
+
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:hint="첫 번째 숫자를 입력하세요 !"
+        >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:hint="두 번째 숫자를 입력하세요 !"
+        >
+
+    </EditText>
+    <Button
+        android:id="@+id/btn_plus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Gray"
+        android:textSize="20sp"
+        android:textColor="@color/Black"
+        android:text="더하기"
+        >
+
+    </Button>
+    <Button
+        android:id="@+id/btn_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Gray"
+        android:textSize="25sp"
+        android:textColor="@color/White"
+        android:text="main go"
+        >
+
+    </Button>
+
+
+
+</LinearLayout>

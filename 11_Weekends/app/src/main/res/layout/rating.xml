@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RatingBar
+        android:id="@+id/rating1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stepSize="1"
+        >
+
+    </RatingBar>
+
+    <RatingBar
+        android:id="@+id/rating2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/ratingBarStyleSmall"
+        android:numStars="10"
+        android:stepSize="1"
+        >
+    </RatingBar>
+
+    <RatingBar
+        android:id="@+id/rating3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:rating="1.5"
+        android:stepSize="1"
+        >
+    </RatingBar>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="증가 시키기 !"
+        android:id="@+id/btn_up"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        >
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="감소 시키기 !"
+        android:id="@+id/btn_down"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        >
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main Go"
+        android:id="@+id/btn_Main"
+        android:textSize="20sp"
+        android:textColor="@color/LightYellow"
+        android:layout_marginTop="10dp"
+        >
+    </Button>
+
+</LinearLayout>
